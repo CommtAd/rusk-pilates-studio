@@ -258,9 +258,9 @@ body::before{
 .mcard p{font-size:.8rem;color:var(--ink-soft);line-height:1.9;text-align:left}
 
 /* ===== おすすめ ===== */
-.recommend__grid{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:18px 8px;margin-top:24px}
-.recommend__grid li{text-align:center;font-size:.72rem;font-weight:500;color:var(--ink);line-height:1.4}
-.ricon{display:block;position:relative;width:72px;height:72px;margin:0 auto 10px;border-radius:50%;overflow:hidden;
+.recommend__grid{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:28px 16px;margin-top:26px}
+.recommend__grid li{text-align:center;font-size:.86rem;font-weight:500;color:var(--ink);line-height:1.5}
+.ricon{display:block;position:relative;width:110px;height:110px;margin:0 auto 12px;border-radius:50%;overflow:hidden;
   background:var(--blue-pale);background-size:cover;background-position:center;transition:.3s;
   box-shadow:inset 0 0 0 2px rgba(243,192,207,.6),0 6px 14px rgba(197,109,138,.12)}
 .ricon::after{content:"PHOTO";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
