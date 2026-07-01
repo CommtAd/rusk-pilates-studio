@@ -71,13 +71,9 @@ body::before{
 
 .side__qr{background:var(--white);border-radius:16px;padding:16px;display:flex;gap:12px;align-items:center;
   box-shadow:0 8px 24px rgba(197,109,138,.18);width:100%}
-.side__qr-box{width:74px;height:74px;flex:none;border-radius:8px;background:var(--blue-pale);
+.side__qr-box{width:74px;height:74px;flex:none;border-radius:8px;background:#fff;padding:4px;
   display:flex;align-items:center;justify-content:center;overflow:hidden}
-.qr-dots{width:56px;height:56px;
-  background-image:
-    linear-gradient(90deg,#2b3b44 25%,transparent 25% 50%,#2b3b44 50% 75%,transparent 75%),
-    linear-gradient(0deg,#2b3b44 25%,transparent 25% 50%,#2b3b44 50% 75%,transparent 75%);
-  background-size:14px 14px;opacity:.85}
+.side__qr-box img{width:100%;height:100%;object-fit:contain;display:block}
 .side__qr p{font-size:.62rem;line-height:1.5;color:var(--ink-soft)}
 .side__qr strong{color:var(--ink);font-size:1.15em}
 
@@ -252,7 +248,11 @@ body::before{
 .mcard{background:var(--white);border-radius:var(--radius);padding:16px 16px 20px;margin-bottom:20px;
   box-shadow:0 8px 24px rgba(160,90,115,.12);text-align:center}
 .mcard__photo{height:150px;border-radius:14px;position:relative;overflow:hidden;margin-bottom:14px;
-  background:linear-gradient(140deg,#f5cdd9,#ee9fb6)}
+  background:linear-gradient(140deg,#f5cdd9,#ee9fb6);background-size:cover;background-position:center}
+.mcard__photo--1{background-image:url("images/merit1.png")}
+.mcard__photo--2{background-image:url("images/merit2.png")}
+.mcard__photo--3{background-image:url("images/merit3.png")}
+.mcard__photo--4{background-image:url("images/merit4.png")}
 .mcard h3{font-size:1rem;font-weight:900;color:var(--ink);margin-bottom:8px;
   padding-bottom:10px;border-bottom:1px dashed var(--blue-soft);display:inline-block}
 .mcard p{font-size:.8rem;color:var(--ink-soft);line-height:1.9;text-align:left}
