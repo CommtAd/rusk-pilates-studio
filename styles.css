@@ -83,7 +83,7 @@ body::before{
 
 .side__btn{width:100%;text-align:center;padding:15px;border-radius:40px;font-weight:700;
   box-shadow:0 6px 18px rgba(197,109,138,.22);transition:.25s;letter-spacing:.05em}
-.side__btn--sub{background:var(--blue-soft);color:var(--white)}
+.side__btn--sub{background:var(--white);color:var(--blue-deep);border:2px solid var(--blue-deep)}
 .side__btn--main{background:var(--blue-deep);color:var(--white)}
 .side__btn:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(197,109,138,.35)}
 
