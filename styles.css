@@ -215,6 +215,7 @@ body::before{
 .sec-photo,.access-photo{height:200px;border-radius:16px;margin-bottom:24px;position:relative;overflow:hidden;
   background:linear-gradient(140deg,#f3c0cf,#e79cb3)}
 .access-photo{border-radius:0;margin:-52px -22px 24px;height:220px}
+.access-photo--studio{background-image:url("images/studio.png");background-size:cover;background-position:center}
 .sec-photo--about{background-image:url("images/about-lesson.png");background-size:cover;background-position:center}
 
 /* マーカー風テキスト */
@@ -277,6 +278,7 @@ body::before{
 .msg-owner{display:flex;align-items:center;gap:16px;margin-bottom:20px}
 .msg-owner__photo{width:96px;height:96px;flex:none;border-radius:50%;position:relative;overflow:hidden;
   background:linear-gradient(140deg,#f3c8d6,#e79cb3)}
+.msg-owner__photo--img{background-image:url("images/instructor.png");background-size:cover;background-position:center top}
 .msg-owner__name small{font-size:.72rem;color:var(--ink-soft)}
 .msg-owner__name strong{display:block;font-size:1.35rem;letter-spacing:.1em;color:var(--ink)}
 .msg-bio{width:100%;font-size:.78rem;border-collapse:collapse}
